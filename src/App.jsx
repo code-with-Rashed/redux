@@ -1,9 +1,10 @@
-import './App.css'
+import CounterApp from "./CounterApp"
+
 
 function App() {
   return (
     <>
-      <h1>Learn Redux</h1>
+      <CounterApp />
     </>
   )
 }
