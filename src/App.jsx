@@ -1,10 +1,8 @@
-import './App.css'
-
+import './app.css'
+import FlightBookingApp from './FlightBookingApp';
 function App() {
   return (
-    <>
-      <h1>Learn Redux</h1>
-    </>
+    <FlightBookingApp></FlightBookingApp>
   )
 }
 
