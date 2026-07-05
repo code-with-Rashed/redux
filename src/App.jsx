@@ -1,11 +1,5 @@
-import './App.css'
-
+import TodoApp from "./TodoApp"
 function App() {
-  return (
-    <>
-      <h1>Learn Redux</h1>
-    </>
-  )
+  return <TodoApp></TodoApp>
 }
-
 export default App
