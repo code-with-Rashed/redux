@@ -1,5 +1,5 @@
-import TodoApp from "./TodoApp"
+import TodoApp from "./TodoApp";
 function App() {
-  return <TodoApp></TodoApp>
+  return <TodoApp></TodoApp>;
 }
-export default App
+export default App;
