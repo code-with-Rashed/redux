@@ -1,11 +1,7 @@
-import './App.css'
+import ProductCartApp from "./ProductCartApp";
 
 function App() {
-  return (
-    <>
-      <h1>Learn Redux</h1>
-    </>
-  )
+  return <ProductCartApp></ProductCartApp>;
 }
 
-export default App
+export default App;
