@@ -1,5 +1,5 @@
-import ProductForm from "./component/ProductForm";
-import ProductList from "./component/ProductList";
+import ProductForm from "../component/ProductForm";
+import ProductList from "../component/ProductList";
 
 const HomePage = () => {
   return (

@@ -1,5 +1,5 @@
-import Bill from "./component/Bill";
-import CartList from "./component/CartList";
+import Bill from "../component/Bill";
+import CartList from "../component/CartList";
 
 const CartPage = () => {
   return (

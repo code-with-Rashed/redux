@@ -1,7 +1,13 @@
 import Logo from "../assets/logo.png";
 import Cart from "../assets/cart.png";
+import { useSelector } from "react-redux";
 
 const Navbar = ({ changePage }) => {
+  const carts = useSelector((state) => state.carts);
+  const totalCartItem = carts.reduce(
+    (acc, cart) => acc + (+cart.cartQuantity || 0),
+    0,
+  );
   return (
     <nav className="bg-[#171C2A] py-4">
       <div className="navBar">
@@ -24,7 +30,7 @@ const Navbar = ({ changePage }) => {
             onClick={() => changePage(false)}
           >
             <img src={Cart} width="20" height="20"></img>
-            <span id="lws-totalCart">0</span>
+            <span id="lws-totalCart">{totalCartItem}</span>
           </button>
         </div>
       </div>
